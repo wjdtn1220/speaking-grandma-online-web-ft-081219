@@ -1,7 +1,7 @@
 # Write a speak_to_grandma method.
 
 def speak_to_grandma
-  if !phrase.upcase
+  if !speak_to_grandma.upcase
     return "Huh?! SPEAK UP, SONNY!"
   elsif phrase.upcase
     return "NO, NOT SINCE 1938!"
