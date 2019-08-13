@@ -1,8 +1,8 @@
 # Write a speak_to_grandma method.
 
-
-if !"Huh?! SPEAK UP, SONNY!".upcase
-  return
+def speak_to_grandma
+  if !phrase.upcase
+    puts "HUH?! SPEAK UP, SONNY!"
 end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
